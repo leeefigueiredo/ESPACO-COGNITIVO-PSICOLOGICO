@@ -13,6 +13,12 @@ body {
   padding: 45px 0;
 }
 
+.psicocapa{
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+
 .layout_padding2-top {
   padding-top: 45px;
   padding-bottom: 45px;
