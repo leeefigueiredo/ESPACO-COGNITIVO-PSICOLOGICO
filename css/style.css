@@ -893,3 +893,19 @@ a:focus {
   padding: 5px;
   border-radius: 5px;
 }
+
+.perfilft{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.teste1{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
