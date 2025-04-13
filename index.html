@@ -27,64 +27,7 @@
 <body>
   <div class="hero_area">
     <!-- header section strats -->
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/logo.png" alt="" />
-            <span>
-              ECP
-            </span>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  ">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="work.html">Work </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="category.html"> Category </a>
-              </li>
-            </ul>
-            <div class="user_option">
-              <a href="">
-                <span>
-                  Login
-                </span>
-              </a>
-              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form>
-            </div>
-          </div>
-          <div>
-            <div class="custom_menu-btn ">
-              <button>
-                <span class=" s-1">
-
-                </span>
-                <span class="s-2">
-
-                </span>
-                <span class="s-3">
-
-                </span>
-              </button>
-            </div>
-          </div>
-
-        </nav>
-      </div>
-    </header>
+   
     <!-- end header section -->
     <!-- slider section -->
     <section class="slider_section ">
@@ -107,7 +50,7 @@
             <div class="container-fluid">
               <div class="row">
                 <div class="col-md-5 offset-md-1">
-                  <div class="detail-box">
+                  <div class="detail-box mobajuste">
                     <h1>
                       Espaço <br>
                       Cognitivo <br>
@@ -228,7 +171,13 @@
             <p>
               Oferecemos atendimento psicológico tanto online quanto presencial, proporcionando um espaço acolhedor para que você possa trabalhar suas questões com segurança e conforto. A psicoterapia online permite flexibilidade e praticidade, sendo ideal para quem tem uma rotina agitada ou busca conveniência, enquanto o atendimento presencial possibilita um contato mais direto em um ambiente estruturado para o seu bem-estar. Independentemente da modalidade escolhida, o compromisso é o mesmo: acolhimento, escuta qualificada e suporte para suas necessidades emocionais. </p>
             <div class="btn-box">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdRkPuugzZaJ295dCLbS4kBcslBMox0GDnBvZ7vIkiZuQq5Ag/viewform" class="btn-1">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdRkPuugzZaJ295dCLbS4kBcslBMox0GDnBvZ7vIkiZuQq5Ag/viewform" class="btn-1" Para abrir um link em uma nova aba ao clicar, você pode usar o atributo target="_blank" na tag <a> do HTML. Por exemplo:
+                <a href="https://exemplo.com" target="_blank">Abrir em nova aba</a>
+                
+                
+                Esse código fará com que o link abra em uma nova aba ou janela do navegador, dependendo das configurações do navegador do usuário.
+                Se precisar de ajuda com algo mais relacionado a HTML ou programação, é só avisar! 😊
+                >
                 Preencha o Formulário
               </a>
              
@@ -260,7 +209,7 @@
             <h5>
               Psicoterapia Individual
             </h5>
-            <a href="#">Saiba Mais</a>
+            <a href="#" class="sbdtn">Saiba Mais</a>
           </div>
         </div>
         <div class="box">
@@ -271,7 +220,7 @@
             <h5>
               Atendimento Infantil
             </h5>
-            <a href="#">Saiba Mais</a>
+            <div><a href="#" class="sbdtn">Saiba Mais</a></div>
           </div>
         </div>
         <div class="box">
@@ -282,7 +231,7 @@
             <h5>
               Rodas de Conversa
             </h5>
-            <a href="#">Saiba Mais</a>
+            <div><a href="#" class="sbdtn">Saiba Mais</a></div>
           </div>
         </div>
         <div class="box">
@@ -293,7 +242,7 @@
             <h5>
               Atendimento a Empresas
             </h5>
-            <a href="#">Saiba Mais</a>
+            <a href="#" class="sbdtn">Saiba Mais</a>
           </div>
         </div>
         <div class="box">
@@ -304,7 +253,7 @@
             <h5>
               Atendimento a Escolas
             </h5>
-            <a href="#">Saiba Mais</a>
+            <a href="#" class="sbdtn">Saiba Mais</a>
           </div>
         </div>
         <div class="box">
@@ -315,7 +264,7 @@
             <h5>
               Palestras & Treinamentos
             </h5>
-            <a href="#">Saiba Mais</a>
+            <a href="#" class="sbdtn">Saiba Mais</a>
           </div>
         </div>
       </div>
@@ -686,6 +635,85 @@
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
 
+
+   <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="" />
+            <span>
+              ECP
+            </span>
+          </a>
+        
+          <!-- Desktop -->
+
+          <ul class="navbar-nav  menurep">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Início <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Sobre a gente</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">Nosso trabalho </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="category.html">Contato</a>
+            </li>
+          </ul>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+       
+
+          <!-- Mobile -->
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Início <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Sobre a gente</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="work.html">Nosso trabalho </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="category.html"> Contato </a>
+              </li>
+            </ul>
+            <div class="user_option">
+              <a href="">
+                <span>
+                  Login
+                </span>
+              </a>
+              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+              </form>
+            </div>
+          </div>
+          <div>
+            <div class="custom_menu-btn ">
+              <button>
+                <span class=" s-1">
+
+                </span>
+                <span class="s-2">
+
+                </span>
+                <span class="s-3">
+
+                </span>
+              </button>
+            </div>
+          </div>
+
+        </nav>
+      </div>
+    </header>
 
 </body>
 </body>

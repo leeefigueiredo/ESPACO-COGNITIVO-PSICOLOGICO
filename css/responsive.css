@@ -1,6 +1,22 @@
-@media (max-width: 1120px) {}
+@media (min-width: 1024px)  {
+  .header_section .container-fluid{
+    background-color: #1a2e35;
+  }
+}
 
 @media (max-width: 992px) {
+  
+.mobajuste{
+ 
+  margin-top: 50px;
+}
+  .header_section .container-fluid{
+    background-color: #1a2e35;
+  }
+  .menurep{
+    display: none;
+  }
+  
   .hero_area {
     height: auto;
   }

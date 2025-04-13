@@ -79,6 +79,9 @@ body {
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
+  background-color: none;
+  position: fixed;
+  top:0px;
 }
 
 .header_section .nav_container {
@@ -882,3 +885,11 @@ a:focus {
           transform: rotate(-45deg) translate(8px, -8px);
 }
 /*# sourceMappingURL=style.css.map */
+
+/* alterações Leandro */
+
+.sbdtn{
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
