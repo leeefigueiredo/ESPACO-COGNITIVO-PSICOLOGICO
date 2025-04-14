@@ -895,3 +895,7 @@ a:focus {
   display: flex;
   flex-direction: row;
 }
+
+.testeborder{
+  border: 1px solid red
+}
