@@ -899,3 +899,28 @@ a:focus {
 .testeborder{
   border: 1px solid red
 }
+
+.trabalheconosco a{
+  color: #1cbbb4;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+.wpp a{
+  border: 1px solid red;
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: end;
+  width: 100px;
+  height: 100px;
+  background-image: url(../images/wpp.png);
+}
