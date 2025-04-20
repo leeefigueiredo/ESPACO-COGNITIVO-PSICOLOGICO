@@ -934,7 +934,7 @@ a:focus {
 .wpp a{
  
   position: fixed;
-  bottom: 70px;
+  bottom: 33px;
   right: 5px;
   padding: 0px;
   margin: 0px;
@@ -991,4 +991,8 @@ html{
 .faqtxt p {
   text-align: justify;
   margin-top: 20px;
+}
+
+.terapeutaimg{
+  border-radius: 50px;
 }
