@@ -987,3 +987,8 @@ html{
   margin-top: 20px;
 
 }
+
+.faqtxt p {
+  text-align: justify;
+  margin-top: 20px;
+}
